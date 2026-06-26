@@ -46,7 +46,7 @@ AnimalWorld is a web application that allows users to explore different categori
 ![Add Animal](PASTE_ADD_IMAGE_LINK_HERE)
 
 ✏️ Edit Animal Page
-![Edit Animal](PASTE_EDIT_IMAGE_LINK_HERE)
+![Edit Animal]((https://github.com/prachi-raut-04/AnimalWorld/blob/main/Screenshot/add.png)
 
 🚀 Installation
 Clone the repository : git clone https://github.com/prachi-raut-04/AnimalWorld.git
