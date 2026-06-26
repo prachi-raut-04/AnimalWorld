@@ -28,25 +28,25 @@ AnimalWorld is a web application that allows users to explore different categori
 📸 Screenshots
 
 🔑 Login Page
-![Login Page](PASTE_LOGIN_IMAGE_LINK_HERE)
+![Login Page](Screenshot/login.png)
 
 📝 Sign Up Page
-![Sign Up Page](PASTE_SIGNUP_IMAGE_LINK_HERE)
+![Sign Up Page](Screenshot/signin.png)
 
 🏠 Home Page
-![Home Page](PASTE_HOME_IMAGE_LINK_HERE)
+![Home Page](Screenshot/home.png)
 
 🐠 Category Page
-![Category Page](PASTE_CATEGORY_IMAGE_LINK_HERE)
+![Category Page](Screenshot/category.png)
 
 📄 Animal Details Page
-![Animal Details](PASTE_DETAILS_IMAGE_LINK_HERE)
+![Animal Details](Screenshot/detail.png)
 
 ➕ Add Animal Page
-![Add Animal](PASTE_ADD_IMAGE_LINK_HERE)
+![Add Animal](Screenshot/add.png)
 
 ✏️ Edit Animal Page
-![Edit Animal]((https://github.com/prachi-raut-04/AnimalWorld/blob/main/Screenshot/add.png)
+![Edit Animal](Screenshot/edit.png)
 
 🚀 Installation
 Clone the repository : git clone https://github.com/prachi-raut-04/AnimalWorld.git
