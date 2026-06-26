@@ -53,14 +53,3 @@ Clone the repository : git clone https://github.com/prachi-raut-04/AnimalWorld.g
 Install dependencies : npm install
 Start the server : node index.js or nodemon index.js
 Open your browser : http://localhost:8080
-
-📂 Project Structure
-AnimalWorld
-├── public
-│   ├── css
-│   ├── images
-│   └── js
-├── views
-├── index.js
-├── package.json
-└── README.md
