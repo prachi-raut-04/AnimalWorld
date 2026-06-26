@@ -50,6 +50,9 @@ AnimalWorld is a web application that allows users to explore different categori
 
 🚀 Installation
 Clone the repository : git clone https://github.com/prachi-raut-04/AnimalWorld.git
+
 Install dependencies : npm install
+
 Start the server : node index.js or nodemon index.js
+
 Open your browser : http://localhost:8080
