@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Welcome Back</h1>
+        <p>sign in to continue to your account</p>
+
+        <form method="POST" action="/login">
+            <!-- Email -->
+            <div class="element">
+                <label for="email"><b>Email Address</b></label>
+                <div class="input-box">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div class="element">
+                <label for="password"><b>Password</b></label>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+            </div>
+
+            <!-- Login button -->
+            <div class="element">
+                <button type="submit">Login</button>
+            </div>
+
+        </form>
+
+        <p>Don't have an account? <a href="/signin">Sign up</a></p>
+    </div>
+</body>
+</html>

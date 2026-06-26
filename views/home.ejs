@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal World</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <div>
+        <div>
+            <h3>Browse by Category</h3>
+            <div class="category">
+                <% for(let category of result) { %>
+                    <div class="card">
+                        <img src="/<%= category.image_url %>" alt="">
+                        <h4><%= category.type %></h4>
+                        <p><%= category.species %> species</p>
+                        <a href="/home/<%= category.type %>">View Animals</a>
+                    </div>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

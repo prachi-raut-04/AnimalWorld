@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= data.name %></title>
+    <link rel="stylesheet" href="/detail.css">
+</head>
+<body>
+    <div class="detail-container">
+        <h1><%= data.name %></h1>
+
+        <img src="/<%= data.image_url %>" alt="<%= data.name %>">
+
+        <p><b>Category:</b> <%= type %></p>
+        <p><b>Lifespan:</b> <%= data.lifespan %></p>
+        <p><b>Size:</b> <%= data.size %></p>
+        <p><b>Scientific Name:</b> <%= data.scientific_name %></p>
+        <p><b>Description:</b> <%= data.description %></p>
+
+        <div class="actions">
+            <a href="/home/<%= type %>/<%= data.id %>/edit">Edit</a>
+
+            <form method="POST" action="/home/<%= type %>/<%= data.id %>?_method=DELETE">
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

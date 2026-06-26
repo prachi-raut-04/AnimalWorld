@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Animal</title>
+    <link rel="stylesheet" href="/add.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add New Animal</h1>
+
+        <form method="POST" action="/home/<%= type %>" enctype="multipart/form-data">
+
+            <label for="name">Common Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter common name" required>
+
+            <label for="span">Lifespan</label>
+            <input type="text" name="lifespan" id="span" placeholder="Enter lifespan" required>
+
+            <label for="size">Size</label>
+            <input type="text" name="size" id="size" placeholder="Enter size" required>
+
+            <label for="scientific_name">Scientific Name</label>
+            <input type="text" name="scientific_name" id="scientific_name" placeholder="Enter scientific name" required>
+
+            <label for="image">Image</label>
+            <input type="file" name="image_url" id="image" required>
+
+            <label for="description">Description</label>
+            <textarea name="description" id="description" placeholder="Enter description about the animal..." required></textarea>
+
+            <button type="submit">Create Animal</button>
+        </form>
+    </div>
+
+</body>
+</html>

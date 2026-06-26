@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "animal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Prachi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0",
+    "multer": "^2.2.0",
+    "mysql2": "^3.22.5",
+    "process": "^0.11.10",
+    "uuid": "^14.0.0"
+  }
+}

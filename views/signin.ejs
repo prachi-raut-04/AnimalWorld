@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Sign up</h1>
+        <p>Create your account to get started</p>
+
+        <form method="POST" action="/signin">
+            <!-- Name -->
+            <div class="element">
+                <label for="name"><b>Full Name</b></label>
+                <div class="input-box">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="element">
+                <label for="email"><b>Email Address</b></label>
+                <div class="input-box">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div class="element">
+                <label for="password"><b>Password</b></label>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Create a password" required>
+                </div>
+            </div>
+
+            <!-- Confirm Password -->
+             <div class="element">
+                <label for="cpassword"><b>Confirm Password</b></label>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="confirmpassword" id="cpassword" placeholder="Confirm your password" required>
+                </div>
+            </div>
+
+            <!-- Create button -->
+            <div class="element">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
+
+        <p>Already have an account? <a href="/login">Login</a></p>
+    </div>
+</body>
+</html>
