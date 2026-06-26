@@ -21,13 +21,6 @@ app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 app.use(methodOverride('_method'))
 
-const connection = mysql.createConnection({
-  host : 'localhost',
-  user : 'root',
-  database : 'delta_app',
-  password : 'mysql@123'
-});
-
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         let { type } = req.params; // Fish, Mammals, etc.
